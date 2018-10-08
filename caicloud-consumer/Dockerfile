@@ -4,8 +4,8 @@ MAINTAINER stonesfour "sunshilei@caicloud.io"
 
 
 # change path to your repo dir
-WORKDIR caicloud-consumer
-COPY target/caicloud-consumer-0.0.1-SNAPSHOT.jar  /caicloud-consumer.jar
+
+COPY caicloud-consumer/target/caicloud-consumer-0.0.1-SNAPSHOT.jar  /caicloud-consumer.jar
 
 EXPOSE 8081
 
